@@ -30,7 +30,6 @@ namespace BasicForm
                 // Update the view, if already loaded.
             }
         }
-<<<<<<< HEAD
 
         partial void SubmitBtnAction(NSButton sender)
         {
@@ -40,7 +39,5 @@ namespace BasicForm
             string data = "Value of Name field: " + name + " Value of Email field: " + email + " Value of Subscribe checkbox field: " + checkbox;
             Console.WriteLine(data);
         }
-=======
->>>>>>> inital commit
     }
 }
